@@ -1,0 +1,9 @@
+pandas
+torch
+scikit-learn
+evaluate
+transformers
+sentencepiece
+python-dotenv
+ipywidgets
+sacremoses
