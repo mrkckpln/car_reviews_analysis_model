@@ -42,76 +42,11 @@ car_reviews_analysis_model/
 │
 ├── .env                             # Environment variables (Path configurations)
 ├── .gitignore                       # Git ignore rules
-├── car_sentiment_analysis.ipynb     # Main Jupyter Notebook
+├── reviews.ipynb                    # Main Jupyter Notebook
 ├── requirements.txt                 # Project dependencies
 └── README.md                        # Documentation
 
-⚙️ Installation & Setup
-Clone the Repository
-
-Bash
-
-git clone https://github.com/mrkckpln/car_reviews_analysis_model
-cd car_reviews_analysis_model
-Create a Virtual Environment
-
-Bash
-
-python -m venv venv
-source venv/bin/activate
-Install Dependencies
-
-Bash
-
-# 🚗 AI-Powered Car Review Analysis System
-
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/Hugging%20Face-Transformers-yellow?style=for-the-badge&logo=huggingface&logoColor=black)
-
-An advanced NLP pipeline designed to process, analyze, and extract insights from customer feedback using state-of-the-art **Large Language Models (LLMs)**. This project leverages the Hugging Face `transformers` library to perform sentiment analysis, translation, extractive QA, and text summarization.
-
----
-
-## 🚀 Key Features & Models
-
-This project implements a multi-task NLP pipeline:
-
-| Task | Model Used | Description |
-| :--- | :--- | :--- |
-| **Sentiment Analysis** | `siebert/sentiment-roberta-large-english` | Classifies reviews as **Positive** (1) or **Negative** (0) with high accuracy. |
-| **Translation** | `Helsinki-NLP/opus-mt-en-es` | Translates English reviews into Spanish using Neural Machine Translation. |
-| **Question Answering** | `deepset/minilm-uncased-squad2` | Extracts specific answers (e.g., "What did the user like?") directly from the text context. |
-| **Summarization** | `facebook/bart-large-cnn` | Generates concise summaries (50-55 tokens) of long customer reviews. |
-
----
-
-## 🛠️ Tech Stack
-
-- **Core:** Python 3.10+
-- **Deep Learning:** PyTorch, Hugging Face Transformers
-- **Data Processing:** pandas
-- **Metrics:** scikit-learn (Accuracy, F1), evaluate (BLEU)
-- **Environment:** python-dotenv (for configuration)
-
----
-
-## 📂 Project Structure
-
-```text
-car_reviews_analysis_model/
-│
-├── data/
-│   ├── car_reviews.csv              # Source dataset
-│   └── reference_translations.txt   # Ground truth for translation evaluation
-│
-├── .env                             # Environment variables (path config)
-├── .gitignore                       # Git ignore rules
-├── car_sentiment_analysis.ipynb     # Main Jupyter Notebook
-├── requirements.txt                 # Project dependencies
-└── README.md                        # Documentation
 ```
-
 ## ⚙️ Installation & Setup
 
 1) Clone the repository
